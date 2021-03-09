@@ -83,14 +83,12 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/calebnance/protocapsule-docs/edit/main/docs/"
+          editUrl: "https://github.com/calebnance/protocapsule-docs/edit/main/"
         },
         blog: {
           showReadingTime: true,
           blogSidebarTitle: "All Posts",
-          editUrl:
-            "https://github.com/calebnance/protocapsule-docs/edit/main/docs/blog/"
+          editUrl: "https://github.com/calebnance/protocapsule-docs/edit/main/"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
