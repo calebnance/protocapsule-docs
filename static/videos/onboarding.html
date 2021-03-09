@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>onboarding</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .container-phone {
+        left: 16px;
+        max-width: 302px;
+        position: absolute;
+        top: 6px;
+      }
+
+      .nav-top {
+        background-color: #1a1054;
+        border-top-left-radius: 32px;
+        border-top-right-radius: 32px;
+        height: 42px;
+        position: absolute;
+        width: 100%;
+      }
+
+      video {
+        border-radius: 32px;
+        margin-top: 4px;
+        width: 100%;
+      }
+
+      .phone-shell {
+        display: block;
+        left: -10px;
+        position: relative;
+        width: 354px;
+        z-index: 100;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-phone">
+      <div class="nav-top"></div>
+      <video
+        autoplay
+        muted="muted"
+        playsinline=""
+        loop
+        preload="none"
+        class="app-video"
+      >
+        <source type="video/mp4" src="/videos/onboarding.mp4" />
+      </video>
+    </div>
+    <img
+      alt="iphone shell"
+      class="phone-shell"
+      src="/videos/iphone-shell.png"
+    />
+  </body>
+</html>
