@@ -1,7 +1,7 @@
 module.exports = {
   title: "protocapsule",
   tagline:
-    "Helping design technology teams internally share, iterate, and user test... all in one place.",
+    "helping design technology teams internally share, iterate, and user test... all in one place.",
   url: "https://protocapsule.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -34,7 +34,7 @@ module.exports = {
         { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://gum.co/protocapsule",
-          label: "Buy on Gumroad",
+          label: "Buy",
           position: "right"
         }
       ]
@@ -46,7 +46,7 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Getting started",
+              label: "overview",
               to: "docs/"
             }
           ]
@@ -55,7 +55,7 @@ module.exports = {
           title: "Creator",
           items: [
             {
-              label: "Twitter",
+              label: "twitter",
               href: "https://twitter.com/calebnance"
             }
           ]
@@ -74,7 +74,7 @@ module.exports = {
           ]
         }
       ],
-      copyright: `Copyright &copy; ${new Date().getFullYear()} Caleb Nance. Built with Docusaurus.`
+      copyright: `copyright &copy; ${new Date().getFullYear()} Caleb Nance. Built with Docusaurus.`
     }
   },
   presets: [
@@ -87,7 +87,7 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
-          blogSidebarTitle: "All Posts",
+          blogSidebarTitle: "all posts",
           editUrl: "https://github.com/calebnance/protocapsule-docs/edit/main/"
         },
         theme: {

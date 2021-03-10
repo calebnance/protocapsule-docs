@@ -127,6 +127,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.navbar__logo {
+  height: 60px;
+}
+
+.navbar__brand {
+  text-decoration: none;
+}
+
 /*--------------------------------------------------------------
 3.0 TYPOGRAPHY
 --------------------------------------------------------------*/
@@ -253,9 +261,8 @@ svg {
 --------------------------------------------------------------*/
 
 .ui-component-button {
-  border: 0.0625rem solid var(--ui-color-brand);
+  border: 0.0625rem solid var(--ui-color-n-050);
   border-radius: var(--ui-radius-button);
-  border: 1px solid var(--ui-color-brand);
   display: block;
   font-weight: 700;
   line-height: 1;
@@ -270,8 +277,8 @@ svg {
 }
 
 .ui-component-button-primary {
-  background-color: var(--ui-color-brand);
-  color: var(--ui-color-typography-button);
+  background-color: var(--ui-color-n-050);
+  color: var(--ui-color-n-900);
 }
 
 .ui-component-button-normal {
@@ -519,6 +526,24 @@ svg {
   .ui-section-footer {
     padding-bottom: 2rem;
     padding-top: 2rem;
+  }
+
+  .navbar__items--right a {
+    background-color: var(--ui-color-n-050);
+    border: 0.0625rem solid var(--ui-color-n-050);
+    border-radius: var(--ui-radius-button);
+    color: var(--ui-color-n-900);
+    display: block;
+    font-weight: 700;
+    line-height: 1;
+    min-width: 116px;
+    text-align: center;
+  }
+
+  .navbar__items--right a:hover {
+    background-color: var(--ui-color-typography-button);
+    color: var(--ui-color-brand);
+    text-decoration: none;
   }
 }
 
